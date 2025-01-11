@@ -8,18 +8,16 @@
 
 
 /* banner section */
-
-
 .new-bd{  
     border-radius: 24px;
     background: rgb(198, 228, 214);
     background-repeat: no-repeat;
-    width: 1500px;
-    height: 450px;
+    width: 1250px;
+    height: 500px;
     display: flex;
-    justify-content: space-between;
     padding: 80px;
     margin: auto;
+    justify-content: space-between;
 }
 .new-h{
     color: rgba(14, 14, 14, 0.5);
@@ -46,3 +44,76 @@
     height: 450px;
 }
 
+ /* vision */
+
+ .vision-section{
+    margin-left: 245px;
+ }
+
+ .vision-div{
+    margin-right: 245px;
+ }
+ .vision-info{
+    display: flex;
+    gap: 25px;
+ }
+
+ .vision-h{
+    font-size: 40px;
+    font-weight: 700;
+ }
+ .info-title{
+    font-size: 20px;
+    font-weight: 700;
+ }
+
+/* background color */
+
+ .info-digital{
+    border-radius: 16px;
+    background: rgba(84, 144, 245, 0.2);
+    padding: 25px;
+    height: 260px;
+    width: 400px;
+ }
+ .info-green{
+    border-radius: 16px;
+    background: rgb(198, 228, 214);
+    padding: 25px;
+    height: 260px;
+    width: 400px;
+ }
+ .info-modern{
+    border-radius: 16px;
+    background: rgb(247, 235, 207);
+    padding: 25px;
+    height: 260px;
+    width: 400px;
+ }
+
+ /* buttton color */
+
+ .vision-blue{
+    border-radius: 7px; 
+    background: rgb(84, 144, 245);
+    border: rgb(84, 144, 245) ;
+    font-weight: 600;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+ }
+ .vision-green{
+    font-weight: 600;
+    border-radius: 7px;
+    background: rgb(9, 161, 92);
+    border: rgb(9, 161, 92);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+ }
+.vision-yollow{
+    padding: 10px;
+    font-weight: 600;
+    border-radius: 7px;
+    background:rgb(255, 194, 57);
+    border:rgb(255, 194, 57) ;
+    color: rgb(255, 255, 255);
+}
